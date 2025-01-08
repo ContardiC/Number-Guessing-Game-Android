@@ -14,7 +14,7 @@
         android:layout_marginTop="50dp"
         android:text="@string/info_text"
         android:textAlignment="center"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Two Digits Number"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/rbThreeDigits"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Three Digits Number"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/rbFourDigits"
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Four Digits Number"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </RadioGroup>
 
     <Button

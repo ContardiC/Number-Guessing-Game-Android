@@ -9,28 +9,24 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
-    private ImageView imageViewLogo;
-    private TextView textViewGameTitle;
-    Animation animationImage, animationText;
+    private ImageView mImageViewLogo;
+    private TextView mTextViewGameTitle;
+    Animation mAnimationImage, mAnimationText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        imageViewLogo = findViewById(R.id.imageViewLogo);
-        textViewGameTitle = findViewById(R.id.textViewGameTitle);
-        animationImage = AnimationUtils.loadAnimation(this, R.anim.image_animation);
-        animationText = AnimationUtils.loadAnimation(this, R.anim.text_animation);
+        mImageViewLogo = findViewById(R.id.imageViewLogo);
+        mTextViewGameTitle = findViewById(R.id.textViewGameTitle);
+        mAnimationImage = AnimationUtils.loadAnimation(this, R.anim.image_animation);
+        mAnimationText = AnimationUtils.loadAnimation(this, R.anim.text_animation);
         // Start animation
-        imageViewLogo.startAnimation(animationImage);
-        textViewGameTitle.startAnimation(animationText);
+        mImageViewLogo.startAnimation(mAnimationImage);
+        mTextViewGameTitle.startAnimation(mAnimationText);
         new CountDownTimer(5000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
