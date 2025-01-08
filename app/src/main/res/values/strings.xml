@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Number Guessing Game</string>
     <string name="game_title">Number Guessing Game</string>
+    <string name="info_text">Please select a number of digits. Never forget that you have 10 rights.</string>
 </resources>
