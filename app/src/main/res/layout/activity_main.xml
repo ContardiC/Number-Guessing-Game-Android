@@ -24,14 +24,14 @@
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <RadioButton
-            android:id="@+id/radioButtonTwoDigits"
+            android:id="@+id/rbTwoDigits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -39,7 +39,7 @@
             android:textSize="24dp" />
 
         <RadioButton
-            android:id="@+id/radioButtonThreeDigits"
+            android:id="@+id/rbThreeDigits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -47,7 +47,7 @@
             android:textSize="24dp" />
 
         <RadioButton
-            android:id="@+id/radioButtonFourDigits"
+            android:id="@+id/rbFourDigits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -56,7 +56,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/buttonStartGame"
+        android:id="@+id/btnStartGame"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
